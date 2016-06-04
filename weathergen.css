@@ -1,0 +1,19 @@
+#container {
+  font-family: Times;
+  text-align: center;
+  margin-top: 70px;
+}
+
+#location {
+  font-size: 30px;
+}
+
+#temp {
+  font-size: 30px;
+  color: blue;
+}
+
+#conditions {
+  font-size: 28px;
+  color: red;
+}
