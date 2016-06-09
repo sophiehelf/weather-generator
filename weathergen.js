@@ -28,7 +28,7 @@ $(document).ready(function(){
       $("#temp").text() == far ?
       $("#temp").text(cel) : $("#temp").text(far);
       $("#toggle").text() === "C" ?
-      $("#toggle").text("F") : $("#toggle").text("F");
+      $("#toggle").text("F") : $("#toggle").text("C");
     });
 
 	})
