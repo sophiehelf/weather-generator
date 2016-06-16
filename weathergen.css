@@ -1,19 +1,50 @@
-#container {
-  font-family: Times;
+#header {
+  margin: auto;
+  font-family: Nova Cut;
+  font-style: italic;
   text-align: center;
-  margin-top: 70px;
+  font-size: 44px;
+  padding-top: 60px;
+  color: black;
+}
+
+#container {
+  font-family: Helvetica;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  padding: 30px;
+  border: 1px black solid;
+  width: 460px;
+  background-color: blue;
+  letter-spacing: 1.5px;
 }
 
 #location {
-  font-size: 30px;
+  font-size: 24px;
+  color: white;
 }
 
 #temp {
-  font-size: 30px;
-  color: blue;
+  font-size: 24px;
+  color: white;
 }
 
 #conditions {
-  font-size: 28px;
-  color: red;
+  font-size: 24px;
+  color: white;
+}
+
+button {
+  color: white;
+  border: white solid 1px;
+  border-radius: 30%;
+  background-color: blue;
+  width: 50px;
+  transition: background .1s ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
