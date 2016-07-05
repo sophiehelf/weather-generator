@@ -1,10 +1,15 @@
+body {
+  overflow: hidden;
+}
+
 #header {
   margin: auto;
-  font-family: Nova Cut;
+  font-family: Nova Cut, Times New Roman;
   font-style: italic;
   text-align: center;
-  font-size: 44px;
-  padding-top: 60px;
+  font-size: 3.2em;
+  padding-top: 65px;
+  padding-bottom: 15px;
   color: black;
 }
 
@@ -14,24 +19,24 @@
   margin: auto;
   margin-top: 15px;
   padding: 30px;
+  width: 56%;
   border: 1px black solid;
-  width: 460px;
   background-color: blue;
   letter-spacing: 1.5px;
 }
 
 #location {
-  font-size: 24px;
+  font-size: 1.7em;
   color: white;
 }
 
 #temp {
-  font-size: 24px;
+  font-size: 1.7em;
   color: white;
 }
 
 #conditions {
-  font-size: 24px;
+  font-size: 1.7em;
   color: white;
 }
 
@@ -48,3 +53,4 @@ button:hover {
   background-color: white;
   color: black;
 }
+
