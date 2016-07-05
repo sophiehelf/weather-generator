@@ -46,6 +46,7 @@ $(document).ready(function() {
         $("button").css("border", "yellow solid 1px");
         console.log(id);
 }
+
 else if (id >= 300 && id <= 531) {
   $('#container').css("background-color", "#cccccc");
         $("#container").css("border", "black dotted 1px");
@@ -57,6 +58,7 @@ else if (id >= 300 && id <= 531) {
         $("button").css("border", "black solid 1px");
         console.log(id);
 }
+
 else if (id >= 600 && id <= 622) {
   $("#container").css("background-color", "#ffffff");
         $("#container").css("border", "blue dotted 1px");
@@ -68,6 +70,7 @@ else if (id >= 600 && id <= 622) {
         $("button").css("border", "blue dotted 1px"); 
         console.log(id);
 }
+
 else if (id >= 700 && id <= 781) {
   $("#container").css("background-color", "#ffffff");
         $("#container").css("border", "#333333 dotted 1px");
@@ -79,6 +82,7 @@ else if (id >= 700 && id <= 781) {
         $("button").css("border", "#8c8c8c dotted 1px");
         console.log(id);
 }
+
 else if (id = 800) {
   $('#container').css("background-color", "#99ccff");
         $("#container").css("border", "blue dotted 2px");
@@ -90,6 +94,7 @@ else if (id = 800) {
         $("button").css("color", "blue");
         console.log(id);
 }
+
 else if (id >= 801 && id <= 804) {
   $("#container").css("background-color", "#ffffff");
         $("#container").css("border", "#333333 dotted 1px");
@@ -101,6 +106,7 @@ else if (id >= 801 && id <= 804) {
         $("button").css("border", "#8c8c8c dotted 1px");
         console.log(id);
 }
+
 else if (id >=900 && id <= 906) {
    $("#container").css("background-color", "#ff3300");
         $("#container").css("border", "black solid 1px");
