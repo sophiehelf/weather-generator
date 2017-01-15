@@ -14,8 +14,8 @@ $(document).ready(function() {
       var kel = Math.floor(data.main.temp);
       var far = "It's currently " + Math.floor((data.main.temp * (9 / 5)) - 459.7) + "°F ";
       var cel = "It's currently " + Math.floor(data.main.temp - 273.15) + "°C ";
-     var conditions = data.weather[0].main;
-     var id = data.weather[0].id;
+      var conditions = data.weather[0].main;
+      var id = data.weather[0].id;
       
 
       // show location, temp, and weather conditions
