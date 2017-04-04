@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     // create url with lat + lon of user's geolocation
 
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + data.lat + "&lon=" + data.lon + "&appid=cd28daebaf99b3ab35730e193383f4d6", function(data) {
+    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + data.lat + "&lon=" + data.lon + "&appid=5c1f6fce9654f11a13daf80250ae879d", function(data) {
       
    // declare variables
 
