@@ -1,5 +1,8 @@
 body {
   overflow: hidden;
+   display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 #header {
@@ -26,17 +29,17 @@ body {
 }
 
 #location {
-  font-size: 1.7em;
+  font-size: 1.4em;
   color: white;
 }
 
 #temp {
-  font-size: 1.7em;
+  font-size: 1.4em;
   color: white;
 }
 
 #conditions {
-  font-size: 1.7em;
+  font-size: 1.4em;
   color: white;
 }
 
@@ -54,3 +57,4 @@ button:hover {
   color: black;
 }
 
+/* weather classes */
