@@ -1,10 +1,16 @@
+body {
+  overflow: hidden;
+   display: flex;
+  flex-direction: column;
+}
+
 #header {
   margin: auto;
   font-family: Nova Cut, Times New Roman;
   font-style: italic;
   text-align: center;
   font-size: 3.2em;
-  padding-top: 65px;
+  padding-top: 22px;
   padding-bottom: 15px;
   color: black;
 }
@@ -15,10 +21,11 @@
   margin: auto;
   margin-top: 15px;
   padding: 30px;
-  width: 56%;
+  width: 500px;
   border: 1px black solid;
   background-color: blue;
   letter-spacing: 1.5px;
+  line-height: 200%;
 }
 
 #location {
